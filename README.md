@@ -9,10 +9,10 @@ A simple, yet efficient execve() ASM skeleton.
 Customise the following lines:
 
 ```asm
-.asciz "root@0.0.0.0" #change
- pushl $0x6873732F #(hss/) change 
- pushl $0x6E69622F #(nib/) change 
- pushl $0x7273752F #(rsu/) change
+.asciz "root@0.0.0.0" #change       --> arguments
+ pushl $0x6873732F #(hss/) change \
+ pushl $0x6E69622F #(nib/) change  |--> file
+ pushl $0x7273752F #(rsu/) change /
 ```
 <p>
 By default, execve.s executes /usr/bin/ssh with the argument: <code>"root@0.0.0.0"</code>. When modified, execve.s provides
