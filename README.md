@@ -1,6 +1,8 @@
 execve.s
 ========
 
+For more information: <a href="http://0x80.co.uk/?p=113">http://0x80.co.uk/?p=113</a>
+
 A simple, yet efficient execve() ASM skeleton.
 
 <strong>Usage:</strong>
@@ -17,4 +19,6 @@ By default, execve.s executes /usr/bin/ssh with the argument: <code>"root@0.0.0.
 easy, quick, and most importantly <em>efficient</em> execution of any binary or script, exemplified by the relatively small
 shellcode produced.
 </p>
+
+
 
